@@ -1,27 +1,41 @@
+body{ 
+
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: auto;
+}
+
 .game
 {
     
-    width: 255px;
+    padding: 50px;
     margin: auto;
+    width: 265px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: system-ui;
 }
 .title{
-background-color:rgb(0, 0, 55);
-padding: 5px 0;
-margin: 5px 0;
-font-size: 40px;
-font-weight: bold;
+    border: solid 1px white;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(35,250,252,0.5) 0%, rgba(249,153,255,5) 100%);
+    padding: 5px 0;
+    margin: 5px 0;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 0 6px #f9f9f9;
+    
 }
 span
 {
-color:yellow;
+    color:yellow;
 }
 .square{
+    box-shadow: 0 0 6px #ffffff;
+    border: solid 2px white;
+    border-radius: 15px;
     width: 80px;
     height: 80px;
-    background-color:rgb(0, 0, 66);
+    background: linear-gradient(0deg, rgba(35,250,252,0.3) 0%, rgba(249,153,255,3) 100%);
     margin: 2px;
     float: left;
     font-size: 50px;
