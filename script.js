@@ -3,11 +3,11 @@ let turn='X';
 let boxes=[];
 function end(num1,num2,num3){
     title.innerHTML= boxes[num1] +" is the winner";
-    document.getElementById('item-'+num1).style.backgroundColor='#f00';
-    document.getElementById('item-'+num2).style.backgroundColor='#f00';
-    document.getElementById('item-'+num3).style.backgroundColor='#f00';
-    setInterval(function(){title.innerHTML+="."},1000);
-    setTimeout(function(){location.reload()},4000);
+    document.getElementById('item-'+num1).style.backgroundColor='#000';
+    document.getElementById('item-'+num2).style.backgroundColor='#000';
+    document.getElementById('item-'+num3).style.backgroundColor='#000';
+    setInterval(function(){title.innerHTML+="."},400);
+    setTimeout(function(){location.reload()},1400);
 };
 
 function win(){
